@@ -592,12 +592,12 @@ textarea {
     opacity: 1;
     z-index: 1;
     transition: all 0.5s ease;
+    margin-top: 15px;
     height: 40%;
     
   }
   .navbar__menu li{
-      padding: 0;
-      margin: 10px;
+      margin: 5px;
   }
   .navbar__menu li:nth-child(7) {
     background-color: #ff9106;
@@ -608,19 +608,6 @@ textarea {
 }
 .navbar__menu li a{
     font-weight: 500;
-}
-
-.shape-01{
-    display: none;
-}
-.shape-02{
-    display: none;
-}
-.shape-05{
-    display: none;
-}
-.shape-04{
-    display: none;
 }
 .container{
     width: auto;
