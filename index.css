@@ -593,11 +593,12 @@ textarea {
     z-index: 1;
     transition: all 0.5s ease;
     margin-top: 15px;
-    height: 50%;
+    height: 40%;
     
   }
   .navbar__menu li{
-      margin: 5px;
+      margin: 10px;
+      padding: 0;
   }
   .navbar__menu li:nth-child(7) {
     background-color: #ff9106;
