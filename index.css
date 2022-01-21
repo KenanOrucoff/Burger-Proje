@@ -605,6 +605,8 @@ textarea {
     padding: 10px 15px;
     cursor: pointer;
     width: 30%;
+    position: relative;
+    left: 30%;
 }
 .navbar__menu li a{
     font-weight: 500;
