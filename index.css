@@ -6,6 +6,9 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background: #fafafa;
+}
 .container{
     width: 100%;
     padding-right: 15px;
@@ -33,35 +36,17 @@
  
 }
 .navbar__menu li:nth-child(7){
-    background-color: #fff;
+    background-color: #ff9106;
     border-radius: 1.875rem;
     padding: 10px 15px;
     cursor: pointer;
     
 
-}
-.shape{
-    position: absolute;
-    background: url(../Burger/image/shape.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-    width: 50%;
-    height: 100%;
-    top: 0;
-    right: 0;
-}
-.shape-01{
-        position: absolute;
-        margin-top: 40%;
-        left: -100px;
-        width: 308px;
-        height: 180px;
-        background: url(../Burger//image/01.png);
-        background-repeat: no-repeat;
-        transform: rotate(-29deg);
-}
+}.navbar__menu li:nth-child(7) a{
+    color: white;
+    
 
+}
 .navbar__menu li a{
     color: #483f3f;
     font-size: 16px;
@@ -117,18 +102,7 @@
 .content{
     padding-top: 40px;
 }
-.bg-01 .shape{
-    position: absolute;
-    z-index: -1;
-    background: url(image/shape.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-    width: 51%;
-    height: 130%;
-    top: 0;
-    right: 0;
-}
+
 .cards{
     display: flex;
     justify-content: space-evenly;
@@ -226,26 +200,7 @@
 .bg-03{
     padding-top: 10%;
 }
-.bg-02 .shape-02{
-    background: url(image/shap-01.png);
-    position: absolute;
-    background-repeat: no-repeat;
-    background-position: left;
-    width: 100%;
-    height: 60%;
-    z-index: -1;
-    padding-top: 96%;
-}
-.bg-03 .shape-04{
-    background:url(image/shap-02.png);
-    position: absolute;
-    background-repeat: no-repeat;
-    background-position:right;
-    right: 0;
-    padding-top: 55%;
-    width: 400px;
-    height: 250px;
-}
+
 .card-2{
     box-shadow: 0 4px 10px 2px rgb(0 0 0 / 4%);
     border-radius: 0.625rem;
@@ -309,20 +264,7 @@
 .cards{
     margin-top: 20px;
 }
-.bg-04 .shape-05{
-    position: absolute;
-    background: url(image/shap-05.png);
-    height: 263px;
-    width: 284px;
-    right: -10px;
-    margin-top: 27%;
-    z-index: -1;
-    background-repeat: no-repeat;
-    transform: rotate(  -90deg);
-}
-.bg-05{
-    padding-top: 10%;
-}
+
 .card-3{
     box-shadow: 0 4px 10px 2px rgb(0 0 0 / 4%);
     border-radius: 0.625rem;
@@ -414,19 +356,6 @@
 .heading-text{
     text-align: center;
 }
-.bg-06 .shape-04{
-    background: url(image/shap-02.png);
-    position: absolute;
-    background-repeat: no-repeat;
-    background-position:right;
-    right: 0;
-    padding-top: 78%;
-    left: -8%;
-    width: 400px;
-    height: 250px;
-    transform: rotate(6deg);
-}
-
 .card-5 img{
     width: 100%;
 }
@@ -664,7 +593,7 @@ textarea {
     z-index: 1;
     transition: all 0.5s ease;
     height: 40%;
-    padding: 10px;
+    
   }
   .navbar__menu li{
       padding: 0;
@@ -684,6 +613,12 @@ textarea {
 .shape-01{
     display: none;
 }
+.shape-02{
+    display: none;
+}
+.shape-05{
+    display: none;
+}
 .shape-04{
     display: none;
 }
@@ -694,6 +629,9 @@ textarea {
     flex-direction: column;
 }
 .image-burger img{
+    width: 100%;
+}
+.pizza-image img{
     width: 100%;
 }
 .cards{
@@ -740,27 +678,6 @@ textarea {
 .footer-content{
     margin-top: 20px;
 }
-.bg-02 .shape-02{
-    background: url(image/shap-01.png);
-    position: absolute;
-    background-repeat: no-repeat;
-    background-position: left;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    top: 230%;
-  
-}
-.bg-04 .shape-05{
-    position: absolute;
-    background: url(image/shap-05.png);
-    height: 263px;
-    width: 284px;
-    right: -10px;
-    margin-top: 310%;
-    z-index: -1;
-    background-repeat: no-repeat;
-    transform: rotate(  -90deg);
-}
+
 
 }
